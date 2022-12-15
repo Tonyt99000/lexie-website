@@ -1,0 +1,80 @@
+body {
+    background-image: linear-gradient(red, yellow, green);
+}
+/*HEADER*/
+.intro-lexi {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    padding-top: 50px;
+    height: 140px;
+    width: 915px;
+    color: purple;
+    border: 4px dotted greenyellow;
+} 
+/*MAIN*/
+main{
+    border: 4px dotted greenyellow;
+}
+/*STATS*/
+.no-hitters {
+    height: 350px;
+    width: 300px;
+    transition: transform .2s;
+    
+}
+.no-hitters:hover {
+  transform: scale(1.3);
+}
+.future-img {
+    height: 35px;
+    margin-top: 80px;
+    background-color: #E61F1F;
+    font-size: 30px;
+}
+
+/*SOCIALS*/
+.socials {
+    font-size: 100px;
+    text-align: center;
+}
+
+/*FOOTER*/
+footer {
+    /*border: 2px dotted black;*/
+    background: orange;
+}
+
+/*UNIVERSAL*/
+.pics {
+    display: flex;
+    justify-content: space-evenly;
+}
+.border {
+    /*border: 4px dotted blue;*/
+}
+
+.images {
+    justify-content: space-evenly;
+    /*border: 4px dotted black;*/
+    height: 350px;
+    width: 300px;
+    transition: transform .2s;
+    
+}
+.images:hover {
+  transform: scale(1.2);
+}
+
+.links {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: #E61F1F;
+    text-align: center;
+    text-shadow: 1px 1px black;
+    background-color: pink;
+    width: 300px;
+    cursor: crosshair;
+}
+
