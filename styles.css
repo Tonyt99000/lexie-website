@@ -5,16 +5,14 @@ body {
 .intro-lexi {
     display: flex;
     justify-content: center;
-    
+    justify-content: space-evenly;
     font-size: 40px;
     padding-top: 50px;
-    height: 140px;
-    width: 915px;
     color: purple;
     border: none;
 } 
 .booboo-bear {
-    margin-top: -45px;
+    margin-top: -40px;
     text-align: center;
     font-size: 35px;
     color: purple;
